@@ -5,7 +5,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
-  background-image: url(/tesouras-ferramentas-azul-calculadora-cliparte-vetor_csp68374204.jpg);
+  background-image: url(tesouras-ferramentas-azul-calculadora-cliparte-vetor_csp68374204.jpg);
   background-size: cover;
 }
 header {
