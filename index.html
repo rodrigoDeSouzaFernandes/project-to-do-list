@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+  </header>
+  <section class="flexall">
+    <div class="all">
+      <div class="up-and-down">
+        <button id='mover-cima' class='mover-cima'>▲</button>
+        <button id='mover-baixo' class='mover-baixo'>▾</button>
+      </div>
+      <div class="flexbox">
+        <main>
+          <p id='funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p>
+          <div class="input">  
+            <input id='texto-tarefa'>
+            <button id='criar-tarefa'>Adicionar tarefa</button>
+          </div>
+          <ol id='lista-tarefas'></ol>
+        </main>
+        <div class="button-container">
+          <button id='apaga-tudo' class='apaga-tudo'>Limpar Tarefas</button>
+          <button id='remover-finalizados' class='remover-finalizados'>Remover finalizados</button>
+          <button id='remover-selecionado' class='remover-selecionado'>Remover Selecionado</button>
+
+        </div>
+      </div>
+    </div>
+
+    </section>
+  <footer>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+</html>

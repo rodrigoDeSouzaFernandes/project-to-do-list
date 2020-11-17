@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  background-image: url(/tesouras-ferramentas-azul-calculadora-cliparte-vetor_csp68374204.jpg);
+  background-size: cover;
+}
+header {
+  background-color: black;
+  opacity: 0.8;
+  color:white;
+  text-shadow: black 5px 5px 5px;
+  font-weight: bolder;
+  display: flex;
+  font-family: indie flower, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+}
+
+main {
+  background-color: teal;
+  border-radius: 50px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1 auto;
+  padding: 30px;
+}
+
+main p {
+  color: rgb(181, 216, 247);
+}
+
+
+
+.all {
+  display: flex;
+  background-color: rgb(15, 60, 60);
+  padding: 30px;
+  border: 2px white solid;
+}
+
+.completed {
+  text-decoration: line-through ;
+}
+
+.flexall {
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+ol {
+    border-radius: 50px 0 50px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgb(91, 162, 209);
+    font-family:indie flower, sans-serif;
+    padding: 30px;
+    margin: 10px;
+    min-height: 40vh;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.flexbox {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;  
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.selected {
+  background-color: rgb(15,50,50);
+  color: white;
+}
+
+.up-and-down {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  justify-content: center;
+  order: 1;
+}
+
+.mover-cima, .mover-baixo {
+  min-height:40px;
+}
+
+.apaga-tudo, .remover-finalizados, .remover-selecionado {
+ background-color: rgb(91, 162, 209);
+ padding: 10px 5px;
+ border-radius: 15px;
+ flex-grow: 1;
+}
+
+.button-container {
+  padding: 10px;
+}
+
+button:hover {
+  font-weight: bold;
+  background-color: ivory;
+}
+
