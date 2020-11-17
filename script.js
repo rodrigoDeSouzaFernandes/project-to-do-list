@@ -74,7 +74,7 @@ buttonClearSelected.addEventListener('click', function () {
 //   localStorage.setItem();
 // })
 
-//botao transfere o selected
+//botao transfere o selected;
 let moveUp = document.getElementById('mover-cima');
 
 moveUp.addEventListener('click', function () {
